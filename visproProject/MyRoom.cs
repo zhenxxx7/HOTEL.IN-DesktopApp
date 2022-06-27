@@ -166,6 +166,7 @@ namespace visproProject
         private void PrintBtn_Click(object sender, EventArgs e)
         {
             report pn = new report();
+            
             pn.Show();
         }
 
