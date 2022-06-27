@@ -167,21 +167,25 @@ namespace visproProject
         {
             //select last booking_id
             string query = "SELECT booking_id from booking ORDER BY booking_id DESC LIMIT 1";
-            if(openConnection())
+            string booking_id;
+            if (openConnection())
             {
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 MySqlDataReader reader = cmd.ExecuteReader();
-                while(reader.Read())
+                while (reader.Read())
                 {
-                    string booking_id = reader.GetString("booking_id");
+                    booking_id = reader.GetString("booking_id");
+                    report pn = new report();
+                    pn.booking_id1 = booking_id;
+                    pn.Show();
+
                 }
                 reader.Close();
                 con.Close();
             }
             //send booking_id to report1 form
-            report pn = new report();
-            pn.Show();
         }
+            
 
     }
 }

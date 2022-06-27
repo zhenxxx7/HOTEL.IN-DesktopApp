@@ -44,6 +44,7 @@
             this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
+            this.crystalReportViewer1.Load += new System.EventHandler(this.crystalReportViewer1_Load);
             // 
             // report
             // 
@@ -53,6 +54,7 @@
             this.Controls.Add(this.crystalReportViewer1);
             this.Name = "report";
             this.Text = "report";
+            this.Load += new System.EventHandler(this.report_Load);
             this.ResumeLayout(false);
 
         }
