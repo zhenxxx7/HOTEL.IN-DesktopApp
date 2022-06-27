@@ -166,8 +166,8 @@ namespace visproProject
         private void PrintBtn_Click(object sender, EventArgs e)
         {
             //select last booking_id
-            string query = "SELECT booking_id from booking ORDER BY booking_id DESC LIMIT 1";
             int booking_id;
+            string query = "SELECT booking_id from booking ORDER BY booking_id DESC LIMIT 1";
             if (openConnection())
             {
                 MySqlCommand cmd = new MySqlCommand(query, con);
@@ -184,9 +184,10 @@ namespace visproProject
                 reader.Close();
                 con.Close();
             }
-            //send booking_id to report1 form
-        }
+            //show last booking_id in crystal report
             
+        }
+
 
     }
 }
