@@ -125,4 +125,5 @@ C:\Users\XName\source\repos\visproProject\visproProject\bin\Debug\CrystalDecisio
 C:\Users\XName\source\repos\visproProject\visproProject\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\XName\source\repos\visproProject\visproProject\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\XName\source\repos\visproProject\visproProject\bin\Debug\stdole.dll
+C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.report1.resources
 C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.report.resources

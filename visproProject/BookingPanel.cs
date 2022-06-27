@@ -195,10 +195,10 @@ namespace visproProject
                     MessageBox.Show("Booking Success!");
                     ContentPanel.Controls.Clear();
                     MyRoom fr = new MyRoom();
-                    frm.TopLevel = false;
+                    fr.TopLevel = false;
                     ContentPanel.Controls.Add(fr);
-                    frm.Show();
-                }
+                    fr.Show();
+                }    
                 con.Close();
             }
         }
