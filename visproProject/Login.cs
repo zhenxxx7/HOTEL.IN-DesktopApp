@@ -15,6 +15,7 @@ namespace visproProject
     {
         private MySqlConnection con;
         private string server, database, uid, password;
+        private string userType;
         public Login()
         {
             InitializeComponent();
@@ -60,8 +61,9 @@ namespace visproProject
                 {
                     MySqlCommand cmd = new MySqlCommand(query, con);
                     MySqlDataReader reader = cmd.ExecuteReader();
-                    if (reader.HasRows)
+                    if (reader.Read())
                     {
+                        userType = reader.GetString("user_type");
                         reader.Close();
                         return true;
                     }
@@ -79,6 +81,7 @@ namespace visproProject
             }
             catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 con.Close();
                 return false;
             }
@@ -111,11 +114,17 @@ namespace visproProject
 
             if (isLogin(user, password))
             {
-                /*MessageBox.Show("Login Successful!");*/
-                this.Hide();
-                Main f = new Main();
-                
-                f.Show();
+                if(userType == "User")
+                {
+                    /*MessageBox.Show("Login Successful!");*/
+                    this.Hide();
+                    Main f = new Main();
+                    f.Show();
+                }
+                else if(userType == "Admin")
+                {
+                    MessageBox.Show("Invalid user type");
+                }
             }
             else
             {
@@ -129,6 +138,13 @@ namespace visproProject
         private void UsernameTxt_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuButton21_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginAdmin fm = new LoginAdmin();
+            fm.Show();
         }
 
         private void bunifuThinButton21_Click_1(object sender, EventArgs e)

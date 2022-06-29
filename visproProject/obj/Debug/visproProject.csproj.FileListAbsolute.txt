@@ -127,3 +127,5 @@ C:\Users\XName\source\repos\visproProject\visproProject\bin\Debug\CrystalDecisio
 C:\Users\XName\source\repos\visproProject\visproProject\bin\Debug\stdole.dll
 C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.report1.resources
 C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.report.resources
+C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.LoginAdmin.resources
+C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.AdminForm.resources
