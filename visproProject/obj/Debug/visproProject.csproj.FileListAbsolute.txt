@@ -129,3 +129,5 @@ C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.
 C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.report.resources
 C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.LoginAdmin.resources
 C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.AdminForm.resources
+C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.UpdateForm.resources
+C:\Users\XName\source\repos\visproProject\visproProject\obj\Debug\visproProject.ExCL.resources

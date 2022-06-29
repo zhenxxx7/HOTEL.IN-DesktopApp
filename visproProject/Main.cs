@@ -120,7 +120,8 @@ namespace visproProject
 
         private void Exitbtn_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            ExCL frm = new ExCL();
+            frm.ShowDialog();
         }
 
         private void MyRoomBtn_Click(object sender, EventArgs e)

@@ -325,4 +325,20 @@
         8LzM+QNaK3XDIdNsXQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="AllBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAAAZCAYAAABjNDOYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVFhH7dCxDQAhDMDATASbJPuLMRjgX4gKCXkBXFzl
+        ztGqRq/6dFpf4ha0OQc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAdEz5y3
+        8LzM+QNaK3XDIdNsXQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="UpdateBtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAAAZCAYAAABjNDOYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABiSURBVFhH7dCxDQAhDMDATASbJPuLMRjgX4gKCXkBXFzl
+        ztGqRq/6dFpf4ha0OQc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAc4BzgHOAdEz5y3
+        8LzM+QNaK3XDIdNsXQAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>
