@@ -65,7 +65,7 @@
             this.CloseBtn.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
             this.CloseBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CloseBtn.BackgroundImage")));
             this.CloseBtn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.CloseBtn.ButtonText = "Close";
+            this.CloseBtn.ButtonText = "LogOut";
             this.CloseBtn.ButtonTextMarginLeft = 0;
             this.CloseBtn.ColorContrastOnClick = 45;
             this.CloseBtn.ColorContrastOnHover = 45;
